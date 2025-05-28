@@ -47,7 +47,7 @@ function HumanBodyCard() {
       </div>
 
       {/* Healthy Leg */}
-      <div className="absolute bottom-40 left-5">
+      <div className="absolute bottom-20 left-16">
         <span className="bg-cyan-600 text-white text-xs px-3 py-1 rounded-full shadow font-medium">
           Healthy Leg
         </span>
@@ -57,3 +57,4 @@ function HumanBodyCard() {
 }
 
 export default HumanBodyCard;
+
