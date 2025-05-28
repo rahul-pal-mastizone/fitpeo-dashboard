@@ -1,12 +1,67 @@
-# React + Vite
+# 🩺 Fitpeo Health Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive health monitoring dashboard built with React and Tailwind CSS. This interface is designed to present patient anatomy, health statuses, appointment schedules, and weekly activity data in a clean and intuitive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+This project aims to visualize essential health data using a user-centric layout:
+- Left section: Human body illustration with health tags
+- Center: Key health cards (lungs, teeth, bones)
+- Right: Doctor appointments and upcoming checkups
+- Bottom: Weekly activity bar chart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **React** – Frontend library
+- **Vite** – Build tool for fast development
+- **Tailwind CSS** – Utility-first styling framework
+- **JavaScript (JSX)** – Component logic and UI structure
+
+---
+
+## 💡 Features
+
+- Highlighted anatomy with labeled heart and leg status
+- Individual health cards with progress bars
+- Scrollable calendar showing current week and time slots
+- Doctor appointment blocks and schedules
+- Activity tracking chart for the week
+
+---
+
+## 📂 Project Structure
+
+/public → Static files
+/src
+└── /components
+├── Sidebar
+├── TopNavbar
+├── HumanBodyCard
+├── HealthCards
+├── RightPanel
+└── ActivityChart
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/rahul-pal-mastizone/fitpeo-dashboard.git
+cd fitpeo-dashboard
+
+npm install
+
+npm run dev
+```
+
+
+## 👨‍💻 Author
+
+**Rahul Pal**  
+[GitHub Profile](https://github.com/rahul-pal-mastizone)
