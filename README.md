@@ -4,6 +4,17 @@ A modern and responsive health monitoring dashboard built with React and Tailwin
 
 ---
 
+## 📸 Preview
+
+![Fitpeo Dashboard Screenshot](./public/screenshot.png)
+---
+
+## 🔗 Live Demo
+
+[🌐 View Live Dashboard](https://fitpeo-healthcare--dashboard.vercel.app/)
+
+---
+
 ## 📌 Overview
 
 This project aims to visualize essential health data using a user-centric layout:
