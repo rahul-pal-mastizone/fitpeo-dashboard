@@ -6,7 +6,7 @@ function Sidebar() {
     <div className="w-64 h-screen bg-white shadow-md flex flex-col justify-between p-6">
       {/* Top Logo and Menu */}
       <div>
-        <h2 className="text-2xl font-bold text-blue-600 mb-10">Health<span className="text-black">care.</span></h2>
+        <h2 className="text-2xl font-bold text-blue-600 mb-10">Fitpeo<span className="text-black"> Healthcare</span></h2>
         <nav className="flex flex-col gap-4 text-gray-700">
           <SidebarItem icon={<FaTachometerAlt />} label="Dashboard" active />
           <SidebarItem icon={<FaHistory />} label="History" />
